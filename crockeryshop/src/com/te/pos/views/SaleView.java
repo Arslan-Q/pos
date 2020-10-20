@@ -9,8 +9,6 @@ import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
@@ -436,14 +434,6 @@ public class SaleView extends JFrame {
 		    	}
 		});
 		
-		
-		
-//		saleItemCB.addActionListener(new ActionListener() {
-//		    @Override
-//		    public void actionPerformed(ActionEvent ae) {
-//		    	additem();
-//		    	}
-//		});
 	}
 	
 	

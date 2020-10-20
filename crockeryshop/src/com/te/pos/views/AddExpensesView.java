@@ -42,6 +42,8 @@ public class AddExpensesView extends JFrame implements KeyListener {
 		setLocationRelativeTo(null);
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
+		contentPane.addKeyListener(this);  
+
 
 		contentPane.setBackground(SystemColor.activeCaption);
 

@@ -190,7 +190,9 @@ public class DashboardView extends JFrame {
 		JButton btnEmployee = new JButton("Employee");
 		btnEmployee.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				JOptionPane.showMessageDialog(null, "Feature will be live soon.");
+				EmployeesDetailsView employeesDetailsView=new EmployeesDetailsView();
+				employeesDetailsView.setVisible(true);
+
 			}
 		});
 		btnEmployee.setFont(new Font("Verdana", Font.BOLD, 16));

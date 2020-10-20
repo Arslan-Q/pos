@@ -6,8 +6,6 @@ import java.awt.Font;
 import java.awt.SystemColor;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -16,7 +14,6 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.border.LineBorder;
-
 import com.te.pos.service.LoginService;
 
 public class LoginView {
@@ -32,10 +29,10 @@ public class LoginView {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					LoginView window = new LoginView();
-					window.frmPosCrockery.setVisible(true);
-//					AddExpensesView window=new AddExpensesView();
-//					window.setVisible(true);
+//					LoginView window = new LoginView();
+//					window.frmPosCrockery.setVisible(true);
+					DashboardView window=new DashboardView();
+					window.setVisible(true);
 					
 				} catch (Exception e) {
 					e.printStackTrace();

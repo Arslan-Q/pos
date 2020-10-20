@@ -1,11 +1,8 @@
 package com.te.pos.common;
 
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-
-import sun.util.calendar.BaseCalendar.Date;
 
 public class CurrentTime {
 	public String getTime() throws ParseException {
