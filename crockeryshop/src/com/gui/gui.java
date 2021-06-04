@@ -20,7 +20,7 @@ public class gui {
 					gui window = new gui();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
-					e.printStackTrace();
+					//e.printStackTrace();
 					
 				}
 			}
