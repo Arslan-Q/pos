@@ -16,6 +16,7 @@ public class gui {
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
+				//Changes from Hasssaan Nasir
 				try {
 					gui window = new gui();
 					window.frame.setVisible(true);
@@ -43,6 +44,18 @@ public class gui {
 		
 		JPanel panel = new JPanel();
 		frame.getContentPane().add(panel, BorderLayout.WEST);
+		
+		/*
+		public void run() {
+				//Changes from Hasssaan Nasir
+				try {
+					gui window = new gui();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		*/
 	}
 
 }
