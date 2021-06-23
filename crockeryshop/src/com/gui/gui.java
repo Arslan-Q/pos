@@ -1,10 +1,7 @@
 package com.gui;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
 
 public class gui {
 
@@ -14,6 +11,7 @@ public class gui {
 	 * Launch the application.
 	 */
 	public static void main(String[] args) {
+		//Changes from Arslan Ahsan
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
@@ -21,7 +19,7 @@ public class gui {
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					//e.printStackTrace();
-					
+
 				}
 			}
 		});
